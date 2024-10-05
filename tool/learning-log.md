@@ -1,6 +1,6 @@
 # Tool Learning Log
 
-## Tool: **Phaser and Snap.svg**
+## Tool: **Phaser & Snap.svg**
 
 ## Project: **Gardern Game by: Robert X, Caron V, Kiara M**
 
