@@ -13,7 +13,15 @@ In order to learn **Phaser** I'm gonna watch 2-3 videos about it. These videos a
 
 * _Part 1 Setting Up- Getting Started with Phaser 3_
   * In ths first video, it was just showing me how to get started with **Phaser**, I download **_Phaser.min.js_** into my **IDE**. I also made a touch file call **game.js** and a **index.html**.
-![image](https://github.com/user-attachments/assets/0baf4ce3-0c38-4da7-b7f7-b99f36101c3e)
+
+![image](https://github.com/user-attachments/assets/0302fd2c-6c6c-4fed-bd8c-8a806d19d077)
+![image](https://github.com/user-attachments/assets/6185c054-d428-41b8-b0bc-1db44c8b0e72)
+![image](https://github.com/user-attachments/assets/1a983ce6-17a0-4e0d-86a6-c78741a4747f)
+
+
+
+
+
 
 ### X/X/XX:
 * Text
