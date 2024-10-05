@@ -24,9 +24,9 @@ In order to learn **Phaser** I'm gonna watch 2-3 videos about it. These videos a
  * I learnt that scenes are the places in where the elements of the game live in. **Scenes** can even be use at the same time in the same game. For instance, a scene can be use as the title screen, as a map for a game, the games setting, etc.
  * I also learnt **Init**, **Preload**, **Create**, and **Update**. These four hold important value in when making a game.
  * Arrays are link with this because you can use an array to specify as many scenes as we want.
-**Example**
+
 ```
-scene: [Scene1, Scene2]
+Example: scene: [Scene1, Scene2]
 ```
 
 
