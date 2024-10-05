@@ -1,13 +1,19 @@
 # Tool Learning Log
 
-## Tool: **X**
+## Tool: **Phaser and Snap.svg**
 
-## Project: **X**
+## Project: **Gardern Game by: Robert X, Caron V, Kiara M**
 
 ---
 
-### X/X/XX:
-* Text
+### Octber/5/2024:
+### Phaser
+
+In order to learn **Phaser** I'm gonna watch 2-3 videos about it. These videos are provided in the **SEP11 Freedom Project Tool List**. I want to learn **Phaser** step by step, by not watching so many videos at once. I think if I limit the amount of videos that I watch each day I can probably learn my tool better. So, this is my plan in how I'm gonna learn **Phaser** and of course I will thinker/look at many demos so that I can practice and see how to do it. 
+
+* _Part 1 Setting Up- Getting Started with Phaser 3_
+  * In ths first video, it was just showing me how to get started with **Phaser**, I download **_Phaser.min.js_** into my **IDE**. I also made a touch file call **game.js** and a **index.html**.
+![image](https://github.com/user-attachments/assets/0baf4ce3-0c38-4da7-b7f7-b99f36101c3e)
 
 ### X/X/XX:
 * Text
