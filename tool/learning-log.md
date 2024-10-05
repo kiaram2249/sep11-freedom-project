@@ -28,8 +28,11 @@ In order to learn **Phaser** I'm gonna watch 2-3 videos about it. These videos a
 ```
 Example: scene: [Scene1, Scene2]
 ```
+```
+this.add.text();
 
-
+this.scene.start();
+```
 
 
 
