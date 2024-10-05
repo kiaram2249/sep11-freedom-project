@@ -2,7 +2,7 @@
 
 ## Tool: **Phaser & Snap.svg**
 
-## Project: **Gardern Game by: Robert X, Caron V, Kiara M**
+## Project: **Gardern Game**
 
 ---
 
