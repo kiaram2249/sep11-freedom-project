@@ -28,7 +28,7 @@ After we include the **p5js** , we go to our **index.html** so that we can add t
 
 * **Canvas** is a new Constructor that we can use in order to build a **canvas** and when using **canvas** it comes with few secial abilities;
 * When making a canvas we can use a **Function** and write ```new Canvas();```
-      * We 
+   * We 
 
 
 
