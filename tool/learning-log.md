@@ -124,7 +124,14 @@ function draw() {
 }
 ```
 
-* **Sprites** have positions, so they have a **(x, y)** attribute. So we can change the coordinates and the location of the shape of the **sprite**.
+* **Sprites** have positions, so they have a **(x, y)** attribute. So we can change the coordinates and the location of the shape of the **sprite**;
+   * ```ball.x = 200;```
+   * ```ball.y = 300;```
+* We don't just have to use numbers in order to set up the **(x,y)** coordinates. We can use **width** and **height** to set up the **(x,y)**;
+   * ```ball.x = width/2 - 200;```
+   * ```ball.y = height/2;```
+
+![image](https://github.com/user-attachments/assets/ffb291ad-9c89-400f-9ae5-c86b5df6364a)
 
 
 
