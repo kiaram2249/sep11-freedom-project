@@ -38,8 +38,8 @@ function setup() {
 }
 ```
 
-* Using **canvas** down the road will be very useful because **canvas** haves nice features. For instance, we can use **canvas** so that we can be able to do some pixel art games.
-* We can also use **canvas** to do NE tricks, such as specifying an aspect ratio for the **canvas** instead of having specific dimensions. [Canvas](https://editor.p5js.org/kiaram2249/sketches/VtfUHQrwN)
+* Using **canvas** down the road will be very useful because **canvas** haves nice features. For instance, we can use **canvas** so that we can be able to do some pixel art games;
+* We can also use **canvas** to do NE tricks, such as specifying an aspect ratio for the **canvas** instead of having specific dimensions; [Canvas](https://editor.p5js.org/kiaram2249/sketches/VtfUHQrwN)
 
 ```js
 function setup() {
@@ -52,12 +52,12 @@ function setup() {
 
 ### Introduction of Sprites
 
-* **Sprite** is an element in the simulated world of **P5play**
-* It's something that exists on the screen
-* Something that's going to move around
-* Something that's going to have **Physics simulation** applied to it
-   * (_All the game objects in P5play are going to be Sprite objects_)
-* Since **Sprite** are objects we can put them into **variables**
+* **Sprite** is an element in the simulated world of **P5play**;
+* It's something that exists on the screen;
+* Something that's going to move around;
+* Something that's going to have **Physics simulation** applied to it;
+   * (_All the game objects in P5play are going to be Sprite objects_);
+* Since **Sprite** are objects we can put them into **variables**;
 
 **Local**
 (_The **let ball** variable is a **local** variable meaning that we can only be able to access it inside setup_); 
@@ -70,7 +70,7 @@ function setup() {
 ```
 
 **Global**
-(_We declare it as a **global** variable but putting **let ball;** outside and ontop of the **function**, and then we changed the inside of the **function** by deleting the **let**. Making it now call **ball = new Sprite();**_)
+(_We declare it as a **global** variable but putting **let ball;** outside and ontop of the **function**, and then we changed the inside of the **function** by deleting the **let**. Making it now call **ball = new Sprite()**_);
 
 ```js
 let ball;
@@ -80,6 +80,10 @@ function setup() {
 }
 ```
 
+* On default the _new Sprite_ **P5play** makes a few assumptions; [Sprite](https://editor.p5js.org/kiaram2249/sketches/VtfUHQrwN)
+   * Making the object center of the screen (_default coordinate is in the center_);
+   * Making a box as the default with a specific dimension;
+   * Giving the **Sprite** a random color everytime we hit run/play;
 
 
 ### X/X/XX:
