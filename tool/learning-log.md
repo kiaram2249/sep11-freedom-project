@@ -33,8 +33,8 @@ After we include the **p5js** , we go to our **index.html** so that we can add t
 
 ```js
 function setup() {
-new Canvas(400, 400);
-new Canvas(windowWidth, windowHeight);
+  new Canvas(400, 400);
+  new Canvas(windowWidth, windowHeight);
 }
 ```
 
@@ -43,17 +43,29 @@ new Canvas(windowWidth, windowHeight);
 
 ```js
 function setup() {
-new Canvas("1:1");
-new Canvas("2:1");
+  new Canvas("1:1");
+  new Canvas("2:1");
 }
 ```
 
 ---
 
+### Introduction of Sprites
 
+* **Sprite** is an element in the simulated world of **P5play**
+* It's something that exists on the screen
+* Something that's going to move around
+* Something that's going to have **Physics simulation** applied to it
+   * (_All the game objects in P5play are going to be Sprite objects_)
+* Since **Sprite** are objects we can put them into **variables**
 
-
-
+```js
+function setup() {
+  new Canvas(400, 400);
+  let ball = new Sprite();
+}
+```
+(_The **let ball** variable is a **local** variable meaning that we can only be able to access it inside setup_)
 
 
 
