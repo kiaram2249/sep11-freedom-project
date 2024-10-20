@@ -9,6 +9,7 @@
 ### Sources
 
 * **Intro to p5play- 1.1 Sprites:** [David Bouchard](https://www.youtube.com/watch?v=ZQ23FHfgA0A) _13:25_
+* [p5.js Web Editor](https://editor.p5js.org/kiaram2249/sketches/VtfUHQrwN)
 
 ---
 
@@ -156,7 +157,7 @@ function setup() {
   new Canvas(400, 400);
   ball = new Sprite();
   ball.diameter = 50;
-  ball.fill = 'white';
+  ball.fill = 'yellow';
   ball.velocity.x = 1;
 }
 
