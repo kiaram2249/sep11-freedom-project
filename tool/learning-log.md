@@ -1,6 +1,6 @@
 # Tool Learning Log
 
-## Tool: **Phaser & Psplay**
+## Tool: **Phaser & P5play**
 
 ## Project: **Gardern Game**
 
