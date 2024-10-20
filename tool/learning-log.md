@@ -33,7 +33,7 @@ After we include the **p5js** , we go to our **index.html** so that we can add t
 
 ```js
 new Canvas(400, 400);
-new Canvas (windowWidth, windowHeight);
+new Canvas(windowWidth, windowHeight);
 ```
 
 
