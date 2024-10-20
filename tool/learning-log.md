@@ -32,9 +32,29 @@ After we include the **p5js** , we go to our **index.html** so that we can add t
    * We can also use **window width** and **window height**;
 
 ```js
+function setup() {
 new Canvas(400, 400);
 new Canvas(windowWidth, windowHeight);
+}
 ```
+
+* Using **canvas** down the road will be very useful because **canvas** haves nice features. For instance, we can use **canvas** so that we can be able to do some pixel art games.
+* We can also use **canvas** to do NE tricks, such as specifying an aspect ratio for the **canvas** instead of having specific dimensions. [Canvas](https://editor.p5js.org/kiaram2249/sketches/VtfUHQrwN)
+
+```js
+function setup() {
+new Canvas("1:1");
+new Canvas("2:1");
+}
+```
+
+---
+
+
+
+
+
+
 
 
 
