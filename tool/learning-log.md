@@ -6,6 +6,8 @@
 
 ---
 
+October/18/2024
+
 ### Sources
 
 * **Intro to p5play- 1.1 Sprites:** [David Bouchard](https://www.youtube.com/watch?v=ZQ23FHfgA0A) _13:25_
