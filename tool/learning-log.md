@@ -9,6 +9,7 @@
 ### Sources
 
 * **Intro to p5play- 1.1 Sprites:** [David Bouchard](https://www.youtube.com/watch?v=ZQ23FHfgA0A) _13:25_
+* [P5play](https://p5play.org/)
 * [p5.js Web Editor](https://editor.p5js.org/kiaram2249/sketches/VtfUHQrwN)
 
 ---
@@ -138,7 +139,7 @@ function draw() {
    * ```ball.x = width/2 - 200;```
    * ```ball.y = height/2;```
 
-(_In P5play.io it shows other different attribute that we can change of our **Sprite** into_);
+(_In P5play.org it shows other different attribute that we can change of our **Sprite** into_);
 
 ![image](https://github.com/user-attachments/assets/ffb291ad-9c89-400f-9ae5-c86b5df6364a)
 
