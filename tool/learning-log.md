@@ -5,6 +5,7 @@
 ## Project: **Gardern Game**
 
 ---
+
 ### What are P5play, P5, & p5js?
 
 * **p5js** libraries are code packeages that we can import the arugment in what **P5** already provides for us;
@@ -21,7 +22,13 @@ After we include the **p5js** , we go to our **index.html** so that we can add t
 * ```<script src="https://p5play.org/v3/planck.min.js"></script>``` is a script that includes a libary called **plank** and that is the **physics engine**.
 * ```<script src="https://p5play.org/v3/p5play.js"></script>``` is a a libary called **P5** and that's the libary that I will be learning.
 
+---
 
+### Canvas
+
+* **Canvas** is a new Constructor that we can use in order to build a **canvas** and when using **canvas** it comes with few secial abilities;
+* When making a canvas we can use a **Function** and write ```new Canvas();```
+      * We 
 
 
 
