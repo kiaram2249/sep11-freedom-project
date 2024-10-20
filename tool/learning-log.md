@@ -6,6 +6,12 @@
 
 ---
 
+### Sources
+
+* [David Bouchard](https://www.youtube.com/watch?v=ZQ23FHfgA0A) 13:25
+
+---
+
 ### What are P5play, P5, & p5js?
 
 * **p5js** libraries are code packeages that we can import the arugment in what **P5** already provides for us;
