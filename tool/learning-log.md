@@ -8,7 +8,7 @@
 
 ### Sources
 
-* [David Bouchard](https://www.youtube.com/watch?v=ZQ23FHfgA0A) 13:25
+* [David Bouchard](https://www.youtube.com/watch?v=ZQ23FHfgA0A) _13:25_
 
 ---
 
