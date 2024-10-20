@@ -135,8 +135,31 @@ function draw() {
 
 ![image](https://github.com/user-attachments/assets/ffb291ad-9c89-400f-9ae5-c86b5df6364a)
 
+---
 
+### Motion (velocity)
 
+* **Sprites** have speed in **P5play** and that's going to be called the **Velocity**;
+   * The **velocity** has a **x** and a **y**
+   * **Speed X** and **Speed Y**
+
+```js
+let ball;
+
+function setup() {
+  new Canvas(400, 400);
+  ball = new Sprite();
+  ball.diameter = 50;
+  ball.fill = 'white';
+  ball.velocity.x = 1;
+}
+
+function draw() {
+  background('pink');
+}
+```
+
+---
 
 ### X/X/XX:
 * Text
