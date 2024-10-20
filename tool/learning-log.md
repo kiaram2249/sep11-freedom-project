@@ -36,15 +36,23 @@ function setup() {
   new Canvas(400, 400);
   new Canvas(windowWidth, windowHeight);
 }
+
+function draw() {
+  background('pink');
+}
 ```
 
 * Using **canvas** down the road will be very useful because **canvas** haves nice features. For instance, we can use **canvas** so that we can be able to do some pixel art games;
-* We can also use **canvas** to do NE tricks, such as specifying an aspect ratio for the **canvas** instead of having specific dimensions; [Canvas](https://editor.p5js.org/kiaram2249/sketches/VtfUHQrwN)
+* We can also use **canvas** to do NE tricks, such as specifying an aspect ratio for the **canvas** instead of having specific dimensions; 
 
 ```js
 function setup() {
   new Canvas("1:1");
   new Canvas("2:1");
+}
+
+function draw() {
+  background('pink');
 }
 ```
 
@@ -67,6 +75,10 @@ function setup() {
   new Canvas(400, 400);
   let ball = new Sprite();
 }
+
+function draw() {
+  background('pink');
+}
 ```
 
 **Global**
@@ -78,12 +90,43 @@ function setup() {
   new Canvas(400, 400);
   ball = new Sprite();
 }
+
+function draw() {
+  background('pink');
+}
 ```
 
-* On default the _new Sprite_ **P5play** makes a few assumptions; [Sprite](https://editor.p5js.org/kiaram2249/sketches/VtfUHQrwN)
+* On default the _new Sprite_ **P5play** makes a few assumptions; 
    * Making the object center of the screen (_default coordinate is in the center_);
    * Making a box as the default with a specific dimension;
    * Giving the **Sprite** a random color everytime we hit run/play;
+
+--- 
+
+### Changing the Sprite's attibutes
+
+* **Sprites** are **JavaScript** objects, so they have attibutes that we can change;
+* **Sprites** have **Functions** that we can use on them;
+
+For instance, we can set up a diameter attribute to a **Sprite** changing the shape type of it. As well we can chnage the vaule in how big we want the shape to be. We can make it bigger or smaller.
+
+```js
+let ball;
+
+function setup() {
+  new Canvas(400, 400);
+  ball = new Sprite();
+  ball.diameter = 50;
+}
+
+function draw() {
+  background('pink');
+}
+```
+
+* **Sprites** have positions, so they have a **(x, y)** attribute. So we can change the coordinates and the location of the shape of the **sprite**.
+
+
 
 
 ### X/X/XX:
