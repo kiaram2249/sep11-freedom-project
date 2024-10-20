@@ -131,6 +131,8 @@ function draw() {
    * ```ball.x = width/2 - 200;```
    * ```ball.y = height/2;```
 
+(_In P5play.io it shows other different attribute that we can change of our **Sprite** into_);
+
 ![image](https://github.com/user-attachments/assets/ffb291ad-9c89-400f-9ae5-c86b5df6364a)
 
 
