@@ -59,14 +59,26 @@ function setup() {
    * (_All the game objects in P5play are going to be Sprite objects_)
 * Since **Sprite** are objects we can put them into **variables**
 
+**Local**
+(_The **let ball** variable is a **local** variable meaning that we can only be able to access it inside setup_); 
+
 ```js
 function setup() {
   new Canvas(400, 400);
   let ball = new Sprite();
 }
 ```
-(_The **let ball** variable is a **local** variable meaning that we can only be able to access it inside setup_)
 
+**Global**
+(_We declare it as a **global** variable but putting **let ball;** outside and ontop of the **function**, and then we changed the inside of the **function** by deleting the **let**. Making it now call **ball = new Sprite();**_)
+
+```js
+let ball;
+function setup() {
+  new Canvas(400, 400);
+  ball = new Sprite();
+}
+```
 
 
 
