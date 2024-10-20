@@ -18,8 +18,8 @@ After we include the **p5js** , we go to our **index.html** so that we can add t
 <script src="https://p5play.org/v3/p5play.js"></script>
 ```
 
-* ```<script src="https://p5play.org/v3/planck.min.js"></script>``` is a script that includes a libary called **plank** and that is the **physics engine**.
-* ```<script src="https://p5play.org/v3/p5play.js"></script>``` is a a libary called **P5** and that's the libary that I will be learning.
+  * ```<script src="https://p5play.org/v3/planck.min.js"></script>``` is a script that includes a libary called **plank** and that is the **physics engine**.
+  * ```<script src="https://p5play.org/v3/p5play.js"></script>``` is a a libary called **P5** and that's the libary that I will be learning.
 
 
 
