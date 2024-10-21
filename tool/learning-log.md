@@ -6,7 +6,7 @@
 
 ---
 
-October/18/2024
+### October/18/2024
 
 ### Sources
 
@@ -171,8 +171,49 @@ function draw() {
 
 ---
 
-### X/X/XX:
-* Text
+### October/21/2024:
+
+### Sources
+
+* [P5play](https://p5play.org/)
+* [p5.js Web Editor](https://editor.p5js.org/kiaram2249/sketches/VtfUHQrwN)
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!-- 
