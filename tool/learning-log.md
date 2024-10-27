@@ -171,7 +171,7 @@ function draw() {
 
 ---
 
-### October/21/2024:
+### October/21/2024
 
 ### Sources
 
