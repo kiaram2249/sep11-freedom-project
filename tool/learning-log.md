@@ -180,9 +180,53 @@ function draw() {
 
 ---
 
+```js
+let ball;
 
+function setup() {
+  new Canvas(400, 400);
+  ball = new Sprite();
+  ball.diameter = 60;
+  ball.fill = 'pink';
+  ball.x = width/2-200;
+  ball.y = height/2;
+  ball.textSize = 10;
+  ball.text = "Hit the balls";
+  
+  for (let i=0; i < 15; i++) {
+    let block = new Sprite(width/2 + random(-5, 5), height/2 +random(-5, 5), 40, 40);
+  block.diameter = 50;
+  block.textSize = 12;
+  block.text = "15 ball";
+}
+  
+let wall = new Sprite(width, height/2, 20, height); 
+  wall.fill = 'pink';
+  wall.collider = 'static';
+  
+let top = new Sprite()
+top.y = 400;
+top.fill = 'pink';
+top.w = 350;
+top.collider = 'static';
+  
+}
 
+function draw() {
+  background('black');
+}
 
+function mousePressed(){
+  ball.moveTo(mouseX, mouseY, 8);
+}
+```
+
+* Today I just wanted to learn the other variables that **P5play** has. Today, I went and learnt about **sprite.collider** , **sprite.moveTo(mouseX, mouseY)**, and adding text inside of the shape or sprite. I reused the same code from last tinkering and just added on. I used **P5js Web editor** to tinker and make this code.
+   * Next time I want to use a different mouse tool, in where you can just move your mouse without any clicking invalue and your sprite/shape can still move around the preview. 
+* I realize that **mouse** can make my freedom project game active. Since when you click on the preview the pink ball moves in any direction. If follows in where you click your mouse at. This is a goo way to make the game active for users since they will be clicking vegtables, fruits, and etc from the garden.
+* The **collider** is also useful because it makes the sprite stay in one place. So, even if another sprite/shape hits the sprite that has a collider. That shape will not more at all no matter how many times you hit it. It's useful because it can help other sprites/shape not to wonder around off the previw. Also, if I wanted something to stay on the preview, I can just use the collider.
+* The **text** is good because I can add dialogue and label sprites/shapes if I wanted too. This can come in handy when I want to do those two things. It can help out the game because I can label the fruits, vegtables, the garden, the bugs, and etc. If I can I can try to see if I can use **sprite.text** without putting text inside the shape/sprite. Maybe I can add text onto the canvas instead.
+  
 
 
 
