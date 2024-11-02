@@ -3,7 +3,7 @@
 
 ### Content
 
-Last year in **SEP 10** the people who were in that class had to do a **Freedom Project**, everyone had to make a website. Now that I am in **SEP 11**, I will be doing the samething. I'll be making a **game** with my two partner as our **Freedom Project**. However, this year everyone is learning new different tools, different tools from last years, and some examples of the tools are **Kaboom**, **P5play**, **Phaser**, **Two.js**, **3D**, and many more other tools. So, for this years **Freedom Project** my partners (_Robert & Caron_) will be making a **Garden Game**, and each of us are using/learning different tools in order to make this game possible.
+Last year in **SEP 10** the people who were in that class had to do a **Freedom Project**, everyone had to make a website. Now that I am in **SEP 11**, I will be doing the samething. I'll be making a **game** with my two partner as our **Freedom Project**. However, this year everyone is learning new different tools, different tools from last years, and some examples of the tools are **Kaboom**, **P5play**, **Phaser**, **Two.js**, **3D**, and many more other tools. So, for this years **Freedom Project** my partners (_**Robert & Caron**_) will be making a **Garden Game**, and each of us are using/learning different tools in order to make this game possible.
 
 ### P5play
 
