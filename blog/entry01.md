@@ -33,6 +33,7 @@ How to **learn** is an important skill that I need to know because I need to lea
 
 ### Professionalism
 
+I'm conveying my learning by using all the things that I have learnt from the past and today by learning (_Computer Science 9th, SEP10, & SEP11_), from **Tiny.cc/fccwd**, from **Html**, from **JavaScript**, from **Markdown**, and from my friends/peers as well. I have learnt many different kinds of coding and format, and how to use them as well. I am using all of my learning, and coding skills in order to make this first blog. I have used some of the html, as well I used some of the markdown. For instance, I used this * to make my words in bold, and I used _ in order to make some words in italic. 
 
 
 
