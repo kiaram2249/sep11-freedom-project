@@ -27,7 +27,7 @@ I will be learning the skill **collaboration** because this years freedom projec
 
 How to **learn** is an important skill that I need to know because I need to learn how to use my tool. I need to find sources and examples of **P5play** so that I can master in how to use it. If I don't learn how to use my tool, at the end of the year, I won't be able to know how to use my tool for our **Freedom Project**. I don't want to repeat like last year, when I was in **SEP 10**, in were I didn't learnt my tool enough. I want to able to learn enough about my tool, so that I can know which variables I can use for the **Freedom Project**. 
 
-#### Communication
+##### Communication
 
 **Communication** is very important because one of our partner (_Robert_) is in **SEP 11** period 4, while _Caron_ and I are in **SEP 11** period 3. So, **communication** is very important for us because we all need to be at the same steps/the same part so that no one will be behind or ahead. However, **communication** is important because if we wanted to work on the project at home during the weekends/holidays, we need to stay in touch with each other. That's why when we were in our first week talking about the **Freedom Project** I made a group chat in **Discord** because we all have **discord** and we all use it as well. We can use that when we are at home or outside of school. But when we can in school, we can all use **Slack** to communicate. Even we be on **slack** on different periods/times, this will be a way for all of to send updates in what we did, any questions that we have, and plan out our next steps. 
 
