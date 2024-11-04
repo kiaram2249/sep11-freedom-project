@@ -239,6 +239,40 @@ function mousePressed(){
 
 ---
 
+```js
+function setup() {
+  new Canvas(400, 400);
+  
+  dirt0 = new Sprite();
+  
+  dirt0.fill = 'brown';
+  dirt0.width = 30;
+  dirt0.height = 1000;
+  dirt0.x = 385;
+  dirt0.collider = 'static';
+  
+  
+  dirt1 = new Sprite();
+  
+  dirt1.height = 1000;
+  dirt1.width = 30;
+  dirt1.fill = 'brown';
+  dirt1.x = 328;
+  dirt1.collider = 'static';
+  
+  water = new Sprite();
+  
+  water.height = 1000;
+  water.width = 30;
+  water.fill = 'teal';
+  water.x = 358;
+  water.collider = 'static';
+}
+
+function draw() {
+  background('green');
+}
+```
 
 
 
