@@ -227,7 +227,18 @@ function mousePressed(){
 * I realize that **mouse** can make my freedom project game active. Since when you click on the preview the pink ball moves in any direction. If follows in where you click your mouse at. This is a goo way to make the game active for users since they will be clicking vegtables, fruits, and etc from the garden.
 * The **collider** is also useful because it makes the sprite stay in one place. So, even if another sprite/shape hits the sprite that has a collider. That shape will not more at all no matter how many times you hit it. It's useful because it can help other sprites/shape not to wonder around off the previw. Also, if I wanted something to stay on the preview, I can just use the collider.
 * The **text** is good because I can add dialogue and label sprites/shapes if I wanted too. This can come in handy when I want to do those two things. It can help out the game because I can label the fruits, vegtables, the garden, the bugs, and etc. If I can I can try to see if I can use **sprite.text** without putting text inside the shape/sprite. Maybe I can add text onto the canvas instead.
-  
+
+---
+
+### November/4/2024
+
+### Sources 
+
+* [P5play](https://p5play.org/)
+* [p5.js Web Editor](https://editor.p5js.org/kiaram2249/sketches/VtfUHQrwN)
+
+---
+
 
 
 
