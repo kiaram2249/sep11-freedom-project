@@ -274,7 +274,7 @@ function draw() {
 }
 ```
 
-
+* Today in class I wanted to try and make a design of our game by using **P5play**. I want to try and see if I can make a garden by using the sprites that are given in **P5play**. So, far I made some type of garden that looks like a farm from Minecraft. I realize **P5play** can be use for pixel arts. Maybe this can be good design for like a mini garden look out. 
 
 
 
