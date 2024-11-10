@@ -236,8 +236,13 @@ function mousePressed(){
 
 * [P5play](https://p5play.org/)
 * [p5.js Web Editor](https://editor.p5js.org/kiaram2249/sketches/VtfUHQrwN)
+* [My Tinkering](https://editor.p5js.org/kiaram2249/sketches/T9TrKPQgg)
 
 ---
+
+* Today in class I wanted to try and make a design of our game by using **P5play**. I wanted to try and see if I can make a garden by using the **sprites** that are given in **P5play**. So, far I made some type of garden that looks like a farm from Minecraft. I realize **P5play** can be use for pixel arts, maybe this can be good design for like a mini garden look out. What I mean by that, maybe this design be used as a little out look in the corner when the user is in a different room of the game. It's almost like the little map from Minecraft that users see in the a corner.
+    * Right now I realize I can't look through everything in the **P5play** website because I need to make a account. So, when I go back to school I can try and ask about it to my teacher. However, I can probably ask one of my peers who is also doing **P5play**.
+* Next time, I will try and see if I can add some type of animation too the design and many add new shapes once I make an account with **P5play**. 
 
 ```js
 function setup() {
@@ -267,6 +272,14 @@ function setup() {
   water.fill = 'teal';
   water.x = 358;
   water.collider = 'static';
+  
+  cates = new Sprite();
+  cates.w = 100;
+  cates.x = 50;
+  cates.y = 25;
+  cates.fill = 'olive';
+  cates.text = "supplies"
+  cates.textSize = 20;
 }
 
 function draw() {
@@ -274,8 +287,7 @@ function draw() {
 }
 ```
 
-* Today in class I wanted to try and make a design of our game by using **P5play**. I want to try and see if I can make a garden by using the sprites that are given in **P5play**. So, far I made some type of garden that looks like a farm from Minecraft. I realize **P5play** can be use for pixel arts. Maybe this can be good design for like a mini garden look out. 
-
+---
 
 
 
