@@ -297,6 +297,8 @@ function draw() {
 
 * [P5play](https://p5play.org/)
 * [p5.js Web Editor](https://editor.p5js.org/kiaram2249/sketches/VtfUHQrwN)
+* [David Bouchard](https://www.youtube.com/watch?v=boyuLp3T9NI)
+* [My Tinkering]()
 
 ---
 
