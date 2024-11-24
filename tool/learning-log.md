@@ -298,11 +298,44 @@ function draw() {
 * [P5play](https://p5play.org/)
 * [p5.js Web Editor](https://editor.p5js.org/kiaram2249/sketches/VtfUHQrwN)
 * [David Bouchard](https://www.youtube.com/watch?v=boyuLp3T9NI)
-* [My Tinkering]()
+* [My Tinkering](https://editor.p5js.org/kiaram2249/sketches/JnEDLMSff)
 
 ---
 
+* My last tinkering I wanted to make a background by using the different **sprites** that are given in **P5play**. I wanted to make a mini garden look out. But, with todays tinkering I realize that I could make that, I could make but make it even better. I could make it better because I can use images that I downloaded as backgrounds.
+* I can make this into a little look out or maybe a mini story mode introduction for our game. I don't what I can inclube this into our game, but these are my little ideas of it.
+* Today in tinker I learnt how to download background images and use them onto **P5play**. However, not just a background I also inclubed a little farmer as the users character to play around with.
+    * Somethings that I want to improve on is to make a **scroll**. Meaning when the user is moving the character and it's going of the the screen, the image will continue on with the character, making it look like the character is walking around in long distances.
+    * Another thing that I want to improve on is when the user moves the character. I want to fix the mouse movement because when I was seeing if the mouse movemnent was working, I realize that the character will still move once you take your mouse off the screen. I want to fix that and make sure that the character only moves when you have the mouse on the screen. I don't want the character to keeps on moving when the the user is moving the mouse away from the screen. The character should stop once the mouse is not on it.
+    * Something that I'm thinking about doing is making something like this while making it active. What I mean by that is while the user is moving the character they can collet rewards on the way. I don't think **P5play** can do that, but maybe with **Kaboom** I could do something like that. I have to ask my partners for help with that, since they are learning **Kaboom**.
+ 
+```js
+let farmer;
+let farmerImg;
 
+let gardenBackgroundImg;
+
+function preload() {
+  gardenBackgroundImg = loadImage("garden.jpg");
+  
+  farmerImg = loadImage("file.png");
+}
+
+function setup() {
+  new Canvas(1600, 1440, "pixelated");
+  
+  farmer = new Sprite();
+  farmer.image = farmerImg;
+  
+  mouse.visible = false;
+}
+
+function draw() {
+ image(gardenBackgroundImg, 0, 0);
+ background(gardenBackgroundImg);
+ farmer.moveTo(mouse, 3);
+}
+```
 
 
 
