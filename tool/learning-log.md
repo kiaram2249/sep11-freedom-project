@@ -287,8 +287,6 @@ function draw() {
 }
 ```
 
----
-
 --- 
 
 ### November/18/2024
