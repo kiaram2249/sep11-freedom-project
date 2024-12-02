@@ -346,7 +346,7 @@ function draw() {
 
 ---
 
-
+* With todays tinkering I want to make something that the user can interact. Probably I mini pratice game before they play the actual game. What I mean by this, is that I want to make a mini +++ , where the user will read the rules and have a mini practice round. The game will be pixal looking in a way, but it will be something. So, I would do this while my partners will make the actual game.
 
 
 
