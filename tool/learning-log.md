@@ -1,4 +1,4 @@
-# Tool Learning Log
+![image](https://github.com/user-attachments/assets/6a2f3800-38f3-4edc-94d6-f4a25d00c43a)# Tool Learning Log
 
 ## Tool: **P5play**
 
@@ -346,7 +346,14 @@ function draw() {
 
 ---
 
-* With todays tinkering I want to make something that the user can interact. Probably I mini pratice game before they play the actual game. What I mean by this, is that I want to make a mini +++ , where the user will read the rules and have a mini practice round. The game will be pixal looking in a way, but it will be something. So, I would do this while my partners will make the actual game.
+* I know that I'm not thinking by not using **p5.js**, but I really wanted to write down my ideas that I could do for my groups **Freedom Project**. Today I to build an idea of making something that the user can interact in the furture of my next tinkering. I want to make a  mini pratice game before they play the actual game. What I mean by this, is that I want to make a mini tutorial, where the user will read the rules and have a mini practice round. The game will be pixal looking in a way, but it will be something. So, I would do this while my partners will make the actual game.
+   * I want the game to be, where the farmer needs to collect all the fruits and vegtables that are falling from the ground. The player would have to try and collect all the falling fruits/vegtables. The more they have the better it is for them to sell their products.
+   * This is just a mini tutorial, so the user will play this mini tutorial before starting the actual game. The tutorial will have direction in how to play, and when the user is done reading they will then begin the tutorial.
+   * This tutorial will have 3 different rounds. I say different because each round will have a different difficulty levels. 
+
+**The idea for the Tutorial:**
+
+![image](https://github.com/user-attachments/assets/5097ec0d-c95b-41e5-b20e-8255f497d1bb)
 
 
 
