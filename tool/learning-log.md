@@ -355,7 +355,13 @@ function draw() {
 
 ![image](https://github.com/user-attachments/assets/5097ec0d-c95b-41e5-b20e-8255f497d1bb)
 
+* I can use the learning from tinkering November 18 because with that tinkering I was able to make the farmer move, everytime the user put their mouse on the screen.
+   * I would just need to know how to make the farmer look left and right, as well I would need to know how to make all the fruits/vegtables fall off down the screen.
+   * I would also need the help from one of my partners, to see if **Kaboom** or **Phaser** can help me make this tutorial active for the user.
+   * I would probably need `if else` statments, maybe some `for loops` or `while loops` so that the tutorial can keep on going.
+* So, in my next tinker I will try and see if I can make this tutorial game idea into a reality.
 
+---
 
 
 
