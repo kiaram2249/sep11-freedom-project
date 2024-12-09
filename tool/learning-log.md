@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6a2f3800-38f3-4edc-94d6-f4a25d00c43a)# Tool Learning Log
+# Tool Learning Log
 
 ## Tool: **P5play**
 
