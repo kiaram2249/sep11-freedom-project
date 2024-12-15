@@ -95,6 +95,27 @@ function mousePressed(){
 }
 ```
 
+#### Background + Character
+
+I wanted to make a mini garden look out, and I could make it because I can use images that I downloaded as backgrounds. By doing this I can make this into a little look out or maybe a mini story mode introduction for our game. So, I learnt how to download background images and how to put them onto **P5play**. However, I did not just putted a background I also inclubed a little farmer as the users character to play around with. I also used what I learnt from before. I inclubed the **mouse sprite** because I want to the little farmer to move around. 
+
+```JS
+function preload() {
+  gardenBackgroundImg = loadImage("garden.jpg");
+  
+  farmerImg = loadImage("file.png");
+}
+
+function setup() {
+  new Canvas(1600, 1440, "pixelated");
+  
+  farmer = new Sprite();
+  farmer.image = farmerImg;
+  
+  mouse.visible = false;
+}
+```
+
 ### Engineering Design Process
 
 I am in step 2 because I still have to do research about my tool, `P5play`, I need to find more sources or even videos that I can use so that I can be able to tinker/learn my tool. I should also consider step 3, brainstorm, because my partners and I need to have a heads up in what we want to brainstorm about. We need to brainstorm about the outlook for our game, the factors, the way in how the players will play the game, and can we make in active, etc. However, I think now it is a good time to start considering step 3 because my partners and I can slowly start planning out what we want to put/design our game. We need to do this because we each are learning different tools, so it's important that we talk things out. We need to talk about how we can all use our tool for the **Freedom Project**. We need to know how we want the backgrounds, the characters, the fruits and vegtables, etc to look like. Even the design of how we want the intro of the game to look like as well. 
