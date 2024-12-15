@@ -116,6 +116,39 @@ function setup() {
 }
 ```
 
+But there's still things that I want to improve on because when you put the mouse onto the screen or on top of the character and move it around, the character will go off screen even though if the user has stop moving around the little farmer. However, this is the full code of what I made with my tinkering. 
+   * The [p5.js Code](https://editor.p5js.org/kiaram2249/sketches/JnEDLMSff)
+
+**The Full COde:**
+
+```JS
+let farmer;
+let farmerImg;
+
+let gardenBackgroundImg;
+
+function preload() {
+  gardenBackgroundImg = loadImage("garden.jpg");
+  
+  farmerImg = loadImage("file.png");
+}
+
+function setup() {
+  new Canvas(1600, 1440, "pixelated");
+  
+  farmer = new Sprite();
+  farmer.image = farmerImg;
+  
+  mouse.visible = false;
+}
+
+function draw() {
+ image(gardenBackgroundImg, 0, 0);
+ background(gardenBackgroundImg);
+ farmer.moveTo(mouse, 3);
+}
+```
+
 ### Engineering Design Process
 
 I am in step 2 because I still have to do research about my tool, `P5play`, I need to find more sources or even videos that I can use so that I can be able to tinker/learn my tool. I should also consider step 3, brainstorm, because my partners and I need to have a heads up in what we want to brainstorm about. We need to brainstorm about the outlook for our game, the factors, the way in how the players will play the game, and can we make in active, etc. However, I think now it is a good time to start considering step 3 because my partners and I can slowly start planning out what we want to put/design our game. We need to do this because we each are learning different tools, so it's important that we talk things out. We need to talk about how we can all use our tool for the **Freedom Project**. We need to know how we want the backgrounds, the characters, the fruits and vegtables, etc to look like. Even the design of how we want the intro of the game to look like as well. 
