@@ -161,8 +161,7 @@ I am in step 2 because I still have to do research about my tool, `P5play`, I ne
 
 ### Goal
 
-A goal that I want to have for the winter break, is for my partners and I to start creating the intro of the game. If not I want for us to tinker togther. I want us to tinker together because at some point with the Freedom Project, we need to combine all of the codes, and all the things that we learnt. So, I want to do a test run in how we can all add **Kaboom**, **Phaser** and **P5play** together. 
-    * Making a mini game of our actual game, adding all the different tools that we learnt. 
+A goal that I want to have for the winter break, is for my partners and I to start creating the intro of the game. If not I want for us to tinker togther. I want us to tinker together because at some point with the Freedom Project, we need to combine all of the codes, and all the things that we learnt. So, I want to do a test run in how we can all add **Kaboom**, **Phaser** and **P5play** together. (`Making a mini game of our actual game, adding all the different tools that we learnt.`)
 
 ### Professionalism
 
