@@ -367,9 +367,12 @@ function draw() {
 
 ### Sources 
 
+* [P5play](https://p5play.org/)
+* [p5.js Web Editor](https://editor.p5js.org/kiaram2249/sketches/VtfUHQrwN)
+
 ---
 
-
+* `loadAnimation` is provided by **P5play**
 
 
 
