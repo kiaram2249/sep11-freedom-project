@@ -382,6 +382,10 @@ if(pmouseX > mouseX) player.scale.x = -1; //will make the player face to the lef
 if(pmouseX < mouseX) player.scale.x = 1; //will make the player face to the right
 ```
 
+* With that code I'm able to make the player face left or right. But the part that I am more proud of is making the player move in motions. The animation was really wonderful because it made the player look like that it was walking. Something that I want to fix or improve is when the user stops playing around with the player, the player will stop moving. I say this because even when I'm not moving the player with the mouse, the player is still going in motion in the starting position.
+   * I don't want the player to be in motion when it's not being used around by the user. So, for next tinkering I will find a way for that issue that I want to fix. However, maybe I need to create another motion where it can look like the player is not moving. Or 
+
+
 ```JS
 let player;
 let farmerPlayerAni;
