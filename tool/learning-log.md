@@ -376,15 +376,22 @@ function draw() {
 * `loadAnimation` is provided by **P5play** and it's important because `loadAnimation` has three different modes: **sequence**, **list**, and **sprite sheet**. The animation helps create the image to look like that they are going in a motion.
 * This was perfect for me because I remember trying to make something the same on my other tinkering before. However, I wasn't able to make the player move the other direction when the user moved their mouse. But with todays tinkering I was able to learn how to make the player face different directions.
 * I used an `if` statement, so when the user moved the mouse to the left or the right, the player will face that direction.
+
 **Example Code**
+
 ```JS
 if(pmouseX > mouseX) player.scale.x = -1; //will make the player face to the left
 if(pmouseX < mouseX) player.scale.x = 1; //will make the player face to the right
 ```
 
 * With that code I'm able to make the player face left or right. But the part that I am more proud of is making the player move in motions. The animation was really wonderful because it made the player look like that it was walking. Something that I want to fix or improve is when the user stops playing around with the player, the player will stop moving. I say this because even when I'm not moving the player with the mouse, the player is still going in motion in the starting position.
-   * I don't want the player to be in motion when it's not being used around by the user. So, for next tinkering I will find a way for that issue that I want to fix. However, maybe I need to create another motion where it can look like the player is not moving. Or 
+   * I don't want the player to be in motion when it's not being used around by the user. So, for next tinkering I will find a way for that issue that I want to fix. However, maybe I need to create another motion where it can look like the player is not moving. Or maybe I need a `if else` statement in order to make the player move and stop moving when the user isn't moving the player with the mouse.
+* When I was able to make the the player face left and right, I wanted to set a garden background but I wasn't able to set that background because there was an error. I try to fix the error but it just wouldn't work, I even try to reuse a code that I did when I was setting a background before. But that didn't work as well, so I just left the background to the color black.
+* Something that I learnt is that I need different motions images in order to create that animations feeling to the game. As well I can use `arrays` in order to make the process. 
 
+**The version that I had:**
+
+![image](https://github.com/user-attachments/assets/e50b031a-3874-40ee-aa08-6a4f0e10ec0a)
 
 ```JS
 let player;
@@ -431,7 +438,7 @@ function draw() {
 // }
 ```
 
-
+---
 
 
 
