@@ -369,11 +369,63 @@ function draw() {
 
 * [P5play](https://p5play.org/)
 * [p5.js Web Editor](https://editor.p5js.org/kiaram2249/sketches/VtfUHQrwN)
+* [My Tinkering](https://editor.p5js.org/kiaram2249/sketches/PuV7uMNjj)
 
 ---
 
-* `loadAnimation` is provided by **P5play**
+* `loadAnimation` is provided by **P5play** and it's important because `loadAnimation` has three different modes: **sequence**, **list**, and **sprite sheet**. The animation helps create the image to look like that they are going in a motion.
+* This was perfect for me because I remember trying to make something the same on my other tinkering before. However, I wasn't able to make the player move the other direction when the user moved their mouse. But with todays tinkering I was able to learn how to make the player face different directions.
+* I used an `if` statement, so when the user moved the mouse to the left or the right, the player will face that direction.
+**Example Code**
+```JS
+if(pmouseX > mouseX) player.scale.x = -1; //will make the player face to the left
+if(pmouseX < mouseX) player.scale.x = 1; //will make the player face to the right
+```
 
+```JS
+let player;
+let farmerPlayerAni;
+// let backgroundImg;
+
+function preload() {
+   // let seq = imageSequence("assets/farmerPlayer-", 4); 
+   // console.log(seq);
+  
+  // backgroundImg = loadImage("garden.jpg");
+  
+  farmerPlayerAni = loadAnimation(['assets/farmerPlayer-0.png', 'assets/farmerPlayer-1.png', 'assets/farmerPlayer-2.png', 'assets/farmerPlayer-3.png']);
+}
+
+function setup() {
+  new Canvas(windowWidth, windowHeight);
+  
+  player = new Sprite();
+  player.addAni(farmerPlayerAni);
+  player.w = 40;
+  player.h = 75;
+  // player.debug = true;
+}
+
+function draw() {
+  background('black');
+  // image(backgroundImg, 0, 0); 
+  // background(backgroundImg);
+  mouse.visible = false;
+  player.moveTowards(mouse,1);
+  
+// set the player orientation
+  if(pmouseX > mouseX) player.scale.x = -1;
+  if(pmouseX < mouseX) player.scale.x = 1;
+}
+
+// function imageSequence(prefix, numberOfFrames, ext=".png") {
+//   let sequence = [];
+//   for (let i = 0; i < numberOfFrames; i++) {
+//     sequence[i] = prefix + i + ext;
+//   }
+//   return sequence;
+// }
+```
 
 
 
