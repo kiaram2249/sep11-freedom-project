@@ -389,7 +389,7 @@ if(pmouseX < mouseX) player.scale.x = 1; //will make the player face to the righ
 * When I was able to make the the player face left and right, I wanted to set a garden background but I wasn't able to set that background because there was an error. I try to fix the error but it just wouldn't work, I even try to reuse a code that I did when I was setting a background before. But that didn't work as well, so I just left the background to the color black.
 * Something that I learnt is that I need different motions images in order to create that animations feeling to the game. As well I can use `arrays` in order to make the process. 
 
-**The version that I had:**
+**The vision that I had:**
 
 ![image](https://github.com/user-attachments/assets/e50b031a-3874-40ee-aa08-6a4f0e10ec0a)
 
