@@ -449,8 +449,21 @@ function draw() {
 
 ---
 
+* Here is another planning idea as for my thinkering. I want to make another planning idea because there's so much things that my partner and I need to talk about. We need to start planning in what we want the game to look like and what things we should add onto the game. I realize my partner and I haven't been talking about these things as much, and we need to because in our group we all have different tools that we are learning. So, we need to know who should make what by using there tool.
+* However, an idea that I have is that we can make a mini story mode before the player starts playing the game. Also, maybe having a new intro title as the main introduction for the game. I can probably make that since I seen videos on **YouTube** about making titles by using **P5play**.
+   * For the title I want to make the title with a new background, maybe a image of a garden as the background. For the title it should be in a lovely fonts and the color should give a nature vide. The whole tilte should feel welcoming, calming, and feel like that you are a farmer getting ready to take care of your garden.
+* As for the game in the garden, on of my partners can make it. They can make the game since their tools in **Phaser** and **Kaboom**. However, for the game the idea that I was having is that the player should catch the falling vegtables/fruits that are falling down in randmon spots.
+   * What the player needs to do is catch the vegtables/fruits and avoid the rotten vegtables/fruits.
+* Another idea for the game is that the player will need to take care of there crops from the pests. So, how I want to make it is that the player is over looking their garden and if they see a pest crawling around the plants, then all they have to do it press the pest so that they can get off. But they have to work quick because the level will increase, making the speed of the pest move faster.
+* Finally the last thing that the players can do in our game is to sell the produces that they have grown, they can sell as much as they want and with the money that they have in the game, they can increase/improve the garden tools that they have. 
 
+**Title Game (possible idea)**
 
+![image](https://github.com/user-attachments/assets/478d3345-7afe-4736-8cd8-8eaeddcf6c54)
+
+**The different pests**
+
+![image](https://github.com/user-attachments/assets/0f8a3796-2a49-474a-836f-0ce424531e12)
 
 
 
