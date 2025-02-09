@@ -9,7 +9,7 @@ Before I begin expressing the ideas and steps that I have, this is one of my thi
 
 **My Tinkering:**
 
-``JS
+```JS
 let player;
 let farmerPlayerAni;
 // let backgroundImg;
@@ -52,7 +52,7 @@ function draw() {
 //   }
 //   return sequence;
 // }
-``
+```
 
 
 
