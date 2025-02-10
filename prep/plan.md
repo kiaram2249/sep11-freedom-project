@@ -9,6 +9,13 @@
 
 #### MVP
 
+* We need to start on making the background for the game. So, Caron will make the different backgrounds that we need for each set.
+   * We need to make the background for the introduction of the game, the background for the mini games that the players will play.
+   * This should be done around the February 17.
+
+
+
+
 - [ ] Task (deadline: X)
   - [ ] Subtask (deadline: X)
 
