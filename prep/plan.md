@@ -9,20 +9,17 @@
 
 #### MVP
 
-* We need to start on making the background for the game. So, Caron will make the different backgrounds that we need for each set.
-   * We need to make the background for the introduction of the game, the background for the mini games that the players will play.
-   * This should be done around the February 17.
-
-
-
-
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+* [ ] We need to start on making the background for the game. So, Caron will make the different backgrounds that we need for each set.
+  * [ ] We need to make the background for the introduction of the game, the background for the mini games that the players will play.
+  * [ ] This should be done around the February 17.
+* [ ] We will add crops. Starting with 1 or 2 first.
+  * [ ] Coding crop growth and adding crop value.
+* [ ] Adding a stand/marketplace at the side of the screen to sell the crops.
 
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- [ ] Make multiple levels to the game.
+  - [ ] Make a Town, Forest, etc.
 
 
 <!-- EXAMPLE
@@ -49,7 +46,6 @@
 - [ ] A multiple choice quizzer that will test the user’s knowledge of the solution
 
 -->
-
 
 
 
