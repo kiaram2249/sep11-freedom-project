@@ -9,6 +9,12 @@
 
 #### MVP
 
+**Tools:**
+
+* Caron: **Kaboom**
+* Robert: **Phaser**
+* Kiara: **P5play**
+
 **Background/Details:**
 
 * [ ] We need to start planing how we want our game to look like. We need to designs how background for the game.
