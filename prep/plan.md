@@ -1,6 +1,6 @@
 # Plan
 
-## Tool: Impact, (), ()
+## Tool: Impact, P5play, Kaboom
 ## Product: A gardening game
 
 ---
@@ -12,7 +12,7 @@
 **Tools:**
 
 * Caron: **Kaboom**
-* Robert: **Phaser**
+* Robert: **Impact**
 * Kiara: **P5play**
 
 **Background/Details:**
