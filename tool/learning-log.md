@@ -467,6 +467,59 @@ function draw() {
 
 ---
 
+### March/2/2025
+
+### Sources
+
+* [P5play](https://p5play.org/)
+* [YouTube](https://www.youtube.com/)
+* [p5.js Web Editor](https://editor.p5js.org/)
+
+---
+
+```JS
+let player;
+let farmerPlayerAni;
+
+let farmSetting;
+let settingX = 0;
+
+function preload() {
+  farmSetting = loadImage("setting.jpg");
+
+  farmerPlayerAni = loadAnimation(['assets/farmerPlayer-0.png', 'assets/farmerPlayer-1.png', 'assets/farmerPlayer-2.png', 'assets/farmerPlayer-3.png']);
+}
+
+function setup() {
+  new Canvas(384, 230, "pixelated");
+  
+  player = new Sprite();
+  player.addAni(farmerPlayerAni);
+  player.w = 40;
+  player.h = 75;
+}
+
+function draw() {
+  background('lightgrey');
+  mouse.visible = false;
+  player.moveTowards(mouse,1);
+  
+//background setting
+  image(farmSetting, int(settingX), 0);
+  settingX -= 0.8;
+
+// we double the background setting
+  image(farmSetting, int(settingX) + width, 0);
+
+// snap back the background setting to zero
+  if(settingX < -width) settingX = 0;
+  
+// orientation setting
+  if(pmouseX > mouseX) player.scale.x = -1;
+  if(pmouseX < mouseX) player.scale.x = 1;
+}
+```
+
 
 <!-- 
 * Links you used today (websites, videos, etc)
