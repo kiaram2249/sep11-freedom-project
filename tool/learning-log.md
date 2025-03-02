@@ -520,6 +520,14 @@ function draw() {
 }
 ```
 
+* Since the user player will be wondering area, I wanted to create something that can be useful for my groups **Freedom Project**. So, what I did is basically the same thing that I did from my last learning log. It's the same but the only thing that is different is the background and the outlook. The background moves along with the player, creating an illusion that the player is moving from place to place.
+   * This is helpful because I can set up different setting backgrounds, making it look like the player is moving to different places.
+   * Plus in the video that I found, I realized that I can put **layers** for the background, creating an even more cool illusion. By having layers I can probably make the made setting as the players farm home and in the back of the main setting I can layer it with animals or people. Creating a warm environment for the user would is gonna play our game.
+   * Also, by having layers I can also create an illusion for when the user is gonna sell their protects. Making it look like it's a busy sale place.
+* Even though my today's learning log wasn't much, I still think this a good start in somewhere, because I can use the **animation** of the little farmer character and the moving background for many things.
+   * Maybe I can use this to make the intro of the game. Honestly I have so many ideas that I don't even know where to start nor how to execute them. 
+* Next time for my learning log I can try to make something, by collaberating with my teamates. Maybe we can use what I learn in order to make the intro and the little story mode.
+* **Int** is useful because it blends the images together, helping to not show the line that's between the double images. 
 
 <!-- 
 * Links you used today (websites, videos, etc)
