@@ -504,7 +504,7 @@ function draw() {
   mouse.visible = false;
   player.moveTowards(mouse,1);
   
-//background setting
+// background setting
   image(farmSetting, int(settingX), 0);
   settingX -= 0.8;
 
