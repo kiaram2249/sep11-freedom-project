@@ -529,6 +529,9 @@ function draw() {
 * Next time for my learning log I can try to make something, by collaberating with my teamates. Maybe we can use what I learn in order to make the intro and the little story mode.
 * **Int** is useful because it blends the images together, helping to not show the line that's between the double images. 
 
+---
+
+---
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
