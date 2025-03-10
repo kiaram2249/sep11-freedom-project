@@ -552,9 +552,10 @@ function draw() {
  
 **Different Settings:**
   
-![image](https://github.com/user-attachments/assets/2bad04b8-c597-458d-afc9-730253086e8e)
+![image](https://github.com/user-attachments/assets/799ec6fc-435d-4e69-9ef9-9b26fff98efa)
 
-![image](https://github.com/user-attachments/assets/c8fe08e1-0e5b-4ad8-b77f-d078c2270473)
+![image](https://github.com/user-attachments/assets/7118612c-276c-4d78-86d3-46624fe8f9eb)
+
 
 
 
