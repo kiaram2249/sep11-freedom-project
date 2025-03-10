@@ -554,7 +554,8 @@ function draw() {
   
 ![image](https://github.com/user-attachments/assets/799ec6fc-435d-4e69-9ef9-9b26fff98efa)
 
-![image](https://github.com/user-attachments/assets/7118612c-276c-4d78-86d3-46624fe8f9eb)
+![image](https://github.com/user-attachments/assets/074f328f-56a7-40a4-ad85-f8bd23c6636f)
+
 
 
 
