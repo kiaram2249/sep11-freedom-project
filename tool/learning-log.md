@@ -554,11 +554,11 @@ function draw() {
 
 ![image](https://github.com/user-attachments/assets/1078b9ed-4260-4941-82c7-cf7fcf05738f)
 
+* I know there wasn't any new ideas that were talked about, this was more like a reflect for me and to see what I need to do next in order to do my up coming learning log and to see what I need to do as a partner so that we can make our **Freedom Project**.
 
+---
 
-
-
-
+---
 
 
 <!-- 
