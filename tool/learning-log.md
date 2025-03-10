@@ -551,10 +551,8 @@ function draw() {
   * Plus, in our class we are learning **P5js**. This is useful because my tool is **P5play** and it can help my partner gain an understanding of my tool, maybe they can help me out when we all code together.
  
 **Different Settings:**
-  
-![image](https://github.com/user-attachments/assets/799ec6fc-435d-4e69-9ef9-9b26fff98efa)
 
-![image](https://github.com/user-attachments/assets/074f328f-56a7-40a4-ad85-f8bd23c6636f)
+![image](https://github.com/user-attachments/assets/1078b9ed-4260-4941-82c7-cf7fcf05738f)
 
 
 
