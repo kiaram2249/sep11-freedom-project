@@ -452,7 +452,7 @@ function draw() {
 * Here is another planning idea as for my thinkering. I want to make another planning idea because there's so much things that my partner and I need to talk about. We need to start planning in what we want the game to look like and what things we should add onto the game. I realize my partner and I haven't been talking about these things as much, and we need to because in our group we all have different tools that we are learning. So, we need to know who should make what by using there tool.
 * However, an idea that I have is that we can make a mini story mode before the player starts playing the game. Also, maybe having a new intro title as the main introduction for the game. I can probably make that since I seen videos on **YouTube** about making titles by using **P5play**.
    * For the title I want to make the title with a new background, maybe a image of a garden as the background. For the title it should be in a lovely fonts and the color should give a nature vide. The whole tilte should feel welcoming, calming, and feel like that you are a farmer getting ready to take care of your garden.
-* As for the game in the garden, on of my partners can make it. They can make the game since their tools in **Phaser** and **Kaboom**. However, for the game the idea that I was having is that the player should catch the falling vegtables/fruits that are falling down in randmon spots.
+* As for the game in the garden, one of my partners can make it. They can make the game since their tools in **Phaser** and **Kaboom**. However, for the game the idea that I was having is that the player should catch the falling vegtables/fruits that are falling down in randmon spots.
    * What the player needs to do is catch the vegtables/fruits and avoid the rotten vegtables/fruits.
 * Another idea for the game is that the player will need to take care of there crops from the pests. So, how I want to make it is that the player is over looking their garden and if they see a pest crawling around the plants, then all they have to do it press the pest so that they can get off. But they have to work quick because the level will increase, making the speed of the pest move faster.
 * Finally the last thing that the players can do in our game is to sell the produces that they have grown, they can sell as much as they want and with the money that they have in the game, they can increase/improve the garden tools that they have. 
@@ -531,13 +531,35 @@ function draw() {
 
 ---
 
+### March/9/2025
 
+### Sources
 
-
-
-
+* [P5play](https://p5play.org/)
+* [p5.js Web Editor](https://editor.p5js.org/kiaram2249/sketches/VtfUHQrwN)
 
 ---
+
+* Here's another once a month where I talk about my progress that I did so far and the things that I want to do with my partners for the near future for our **Freedom Project**. So, far in my last learning log I was able to make the background move. What I mean by this was that I was able to make the background to continue on as the user moves the player/character. But it isn't really moving, I just created two backgrounds with the same image and messed around with the **width** by using **if statements**. So, it creates an illusion that the background is moving as the player/character is walking straight ahead.
+  * This was important for me to learn/make because this can help with our game. It can make an illusion that the player/character is going from place to place. This can also create an illusion to one of our mini games as well if possible.
+* However, so far my partners and I have been communicating much more than before, because before we didn't knew where everyone was at and we were never really talking about our plans/ideas for the **Freedom Project**. But now that has changed because this week we were finally talking about what we truly wanted in our game. Plus we were talking about the two **mini games** that we wanted to add to the **Freedom Project**. This is a good start because the **MVP** is due **April 21**, and my partner and I needs to finalize in what we want to add into our game.
+  * All I know is that we need those two mini games, because that's how the user will collect there **fruits/vegtables** and also to protect there **fruits/vegtables** from pests.
+  * We also need to build the intro/welcoming of the game with instructions and a mini bio of what the game is about.
+  * Must have mini story mode in the very beginning to show and create a setting. I want to ask my partners if we can add this because I want to user to know there player/character and the life sytle that they live in. It's like you're getting to know who your going to play as in the game.
+* But right now at this moment one of my peers is helping me, they are helping me in how to use certain elements in order to make something. But, they are showing me this with **Kaboom**, **Kaboom** isn't my tool but it's good for me to learn these kinds of things because I can help my partner **Caron** since she is using that tool. I want to be able to help my partner, in anyway I can because I don't want any of my partners to feel stress while doing the **Freedom Project**.
+  * Right now my peer is trying to help with my mini games, giving me tips and hints in how to do it even though it isn't my tool that I am using. But, he did said that I could do it since it is almost the same thing. So, with my next learning log I will try to make it.
+  * Plus, in our class we are learning **P5js**. This is useful because my tool is **P5play** and it can help my partner gain an understanding of my tool, maybe they can help me out when we all code together.
+ 
+**Different Settings:**
+  
+![image](https://cdn.vectorstock.com/i/500p/26/95/pixel-green-landscape-with-fields-and-road-vector-29672695.jpg)
+
+![image](https://as1.ftcdn.net/jpg/05/61/35/74/1000_F_561357444_PODsv8kzU33vOzosvw4Boc7dnUCnJtiz.jpg)
+
+
+
+
+
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
