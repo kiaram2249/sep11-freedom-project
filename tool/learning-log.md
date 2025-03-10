@@ -552,9 +552,10 @@ function draw() {
  
 **Different Settings:**
   
-![image](https://cdn.vectorstock.com/i/500p/26/95/pixel-green-landscape-with-fields-and-road-vector-29672695.jpg)
+![image](https://github.com/user-attachments/assets/2bad04b8-c597-458d-afc9-730253086e8e)
 
-![image](https://as1.ftcdn.net/jpg/05/61/35/74/1000_F_561357444_PODsv8kzU33vOzosvw4Boc7dnUCnJtiz.jpg)
+![image](https://github.com/user-attachments/assets/c8fe08e1-0e5b-4ad8-b77f-d078c2270473)
+
 
 
 
