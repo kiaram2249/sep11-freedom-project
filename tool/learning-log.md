@@ -569,88 +569,35 @@ function draw() {
 ---
 
 ```JS
-let basket; // The basket object
-let fallingItems = []; // Items that are falling
-let score = 0; // The score for catching items
-let itemSpeed = 3; // Speed of falling items
-let itemImages = []; // Array to store item images
+let items = [];
+let itemCount = 10;
 
-// Load item images
-function preload() {
-  itemImages.push(loadImage('apples.png')); // Load apple image
-}
-
-// Set up the canvas and initial basket
 function setup() {
-  createCanvas(500, 400); // Set canvas size
-  basket = { x: width / 2, y: height - 50, width: 100, height: 50 }; // Basket at bottom center
-  frameRate(30); // Control the game speed
+  createCanvas(400, 400); // Set up the canvas size
+  frameRate(30); // Control the frame rate for smoother animation
+  
+  // Create 10 falling items
+  for (let i = 0; i < itemCount; i++) {
+    let item = createSprite(random(width), random(-200, -50)); // Random starting position above the canvas
+    item.width = random(10, 30); // Random width for the item
+    item.height = item.width; // Keep it a square shape
+    item.velocity.y = random(2, 5); // The falling speed
+    items.push(item); // Add the item to the array
+  }
 }
 
-// Main drawing loop
 function draw() {
-  background(200); // Light gray background
-
-  // Move basket with the mouse
-  basket.x = mouseX;
-
-  // Drop items every 30 frames
-  if (frameCount % 30 === 0) {
-    createItem(); // Create a new falling item
-  }
-
-  // Update each falling item
-  for (let i = fallingItems.length - 1; i >= 0; i--) {
-    let item = fallingItems[i];
-    item.y += itemSpeed; // Move item down
-
-    // Check if the item hits the basket
-    if (
-      item.y + item.height > basket.y &&
-      item.y < basket.y + basket.height &&
-      item.x + item.width > basket.x - basket.width / 2 &&
-      item.x < basket.x + basket.width / 2
-    ) {
-      score++; // Increase score
-      fallingItems.splice(i, 1); // Remove the item
-    }
-
-    // Remove items that fall off screen
-    if (item.y > height) {
-      fallingItems.splice(i, 1);
+  background(220); 
+  
+  for (let item of items) {
+    // If the item goes off the screen it will reset
+    if (item.position.y > height) {
+      item.position.y = random(-200, -50); // Reset item to the top
+      item.position.x = random(width); // Randomize width position
     }
   }
-
-  // Display the score
-  textSize(32);
-  fill(0);
-  textAlign(RIGHT);
-  text("Caught: " + score, width - 20, 40);
-
-  // Draw the basket
-  rect(basket.x - basket.width / 2, basket.y, basket.width, basket.height);
-
-  // Draw all falling items
-  for (let item of fallingItems) {
-    image(item.image, item.x, item.y);
-  }
-}
-
-// Create a new falling item
-function createItem() {
-  let randomImage = random(itemImages); // Pick a random item image
-  let newItem = {
-    x: random(50, width - 50), // Random horizontal position
-    y: 0, // Start from the top
-    width: 50, // Width of the item
-    height: 50, // Height of the item
-    image: randomImage // Item image
-  };
-  fallingItems.push(newItem); // Add the item to the falling items list
 }
 ```
-
-
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
