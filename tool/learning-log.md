@@ -565,6 +565,8 @@ function draw() {
 
 * [P5play](https://p5play.org/)
 * [p5.js Web Editor](https://editor.p5js.org/kiaram2249/sketches/VtfUHQrwN)
+* [W3school](https://www.w3schools.com/js/js_loop_forof.asp) -> In where I learnt ``For of Loop``
+* [.velocity](https://p5play.org/learn/)
 
 ---
 
@@ -601,6 +603,6 @@ function draw() {
 
 * This will help our project because random items are falling down from the canvas. It's useful because once I replace the shapes with images, fruits and vegtables will be falling from the canvas. All I have to do next it make a basket variable and use **mouseX,mouseY** so that it can move side by side. But I need to make it able to catch the falling fruit/vegtable and record how many were caught. So, I also need to make a score in the corner showing the user how many they've caught.
 
-* Something that I needed to research was the **for(let item of items)**, because the ``of`` is telling JavaScript to iterate through each element of the items array, one by one. Also, this kind of loop is a simple way to make the code easier to read since it automatically iterates through all items in the array, without needing to manually manage the index.
+* Something that I needed to research was the **for(let item of items)**, because the ``of`` is telling JavaScript to iterate through each element of the items array, one by one. Also, this kind of loop is a simple way to make the code easier to read since it automatically iterates through all items in the array.
 
 * ``item.velocity.y = random(2,5);`` is important because it makes each falling item to have different kinds of speed. Meaning the speed is between 2-5, and this adds variety to the animation, making it look more pleasing to the eye. As well, I was able to learn this by using the website of **p5.play**. 
