@@ -573,16 +573,16 @@ let items = [];
 let itemCount = 10;
 
 function setup() {
-  createCanvas(400, 400); // Set up the canvas size
-  frameRate(30); // Control the frame rate for smoother animation
+  createCanvas(400, 400); 
+  frameRate(30); // Control the frame rate (changes the speed of the shapes)
   
-  // Create 10 falling items
+  // The 10 falling items
   for (let i = 0; i < itemCount; i++) {
-    let item = createSprite(random(width), random(-200, -50)); // Random starting position above the canvas
-    item.width = random(10, 30); // Random width for the item
-    item.height = item.width; // Keep it a square shape
-    item.velocity.y = random(2, 5); // The falling speed
-    items.push(item); // Add the item to the array
+    let item = createSprite(random(width), random(-200, -50)); // It will start above of the canvas (will start at random positions)
+    item.width = random(10, 10); // This made the items (squares) tiny 
+    item.height = item.width; // The height will be the same number as the width making it 10*10*10 (a perfect sqaure)
+    item.velocity.y = random(2, 5); // If you change the numbers, the speed will be different (going slow or fast)
+    items.push(item); // the items will continue to fall down over and over
   }
 }
 
@@ -598,10 +598,9 @@ function draw() {
   }
 }
 ```
-<!-- 
-* Links you used today (websites, videos, etc)
-* Things you tried, progress you made, etc
-* Challenges, a-ha moments, etc
-* Questions you still have
-* What you're going to try next
--->
+
+* This will help our project because random items are falling down from the canvas. It's useful because once I replace the shapes with images, fruits and vegtables will be falling from the canvas. All I have to do next it make a basket variable and use **mouseX,mouseY** so that it can move side by side. But I need to make it able to catch the falling fruit/vegtable and record how many were caught. So, I also need to make a score in the corner showing the user how many they've caught.
+
+* Something that I needed to research was the **for(let item of items)**, because the ``of`` is telling JavaScript to iterate through each element of the items array, one by one. Also, this kind of loop is a simple way to make the code easier to read since it automatically iterates through all items in the array, without needing to manually manage the index.
+
+* ``item.velocity.y = random(2,5);`` is important because it makes each falling item to have different kinds of speed. Meaning the speed is between 2-5, and this adds variety to the animation, making it look more pleasing to the eye. As well, I was able to learn this by using the website of **p5.play**. 
