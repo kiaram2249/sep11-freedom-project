@@ -568,6 +568,84 @@ function draw() {
 
 ---
 
+```JS
+let basket;
+let items = [];
+let caught = 0;
+let itemSpeed = 3;
+let itemImages = [];
+
+function preload() {
+  itemImages.push(loadImage('apples.png'));   
+}
+
+function setup() {
+  createCanvas(500, 400); 
+
+  basket = { x: width / 2, y: height - 50, width: 100, height: 50 };
+  
+  frameRate(30); // Set the frame rate to control how fast things happen
+}
+
+function draw() {
+  background(200);
+
+  // The movement of the basket based on the mouse position
+  basket.x = mouseX;
+
+  // Randomly items falling from the top
+  if (frameCount % 30 === 0) {
+    createItem();
+  }
+
+  for (let i = items.length - 1; i >= 0; i--) {
+    let item = items[i];
+    item.y += itemSpeed; // Make the item fall
+    
+    // Corrected collision detection
+    if (
+      item.y + item.height > basket.y && 
+      item.y < basket.y + basket.height && 
+      item.x + item.width > basket.x - basket.width / 2 && 
+      item.x < basket.x + basket.width / 2
+    ) {
+      caught++; // Increase score
+      items.splice(i, 1); // Remove the item
+    }
+
+    // If item falls off screen, remove it
+    if (item.y > height) {
+      items.splice(i, 1);
+    }
+  }
+
+  // The score on the screen
+  textSize(32);
+  fill(0);
+  textAlign(RIGHT);
+  text("Caught: " + caught, width - 20, 40);
+
+  // Draw the basket as a rectangle
+  rect(basket.x - basket.width / 2, basket.y, basket.width, basket.height);
+
+  // Draw falling items
+  for (let item of items) {
+    image(item.image, item.x, item.y);
+  }
+}
+
+function createItem() {
+  let randomIndex = floor(random(itemImages.length)); 
+  let newItem = {
+    x: random(50, width - 50),
+    y: 0,
+    width: 50,
+    height: 50,
+    image: itemImages[randomIndex]
+  };
+  items.push(newItem);
+}
+```
 
 
 <!-- 
