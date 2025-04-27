@@ -9,6 +9,8 @@ We're getting closer in where we have to start to build/make our **Freedom Proje
 
 **THE MVP:**
 
+* [The Mini-Game on P5.js](https://editor.p5js.org/kiaram2249/sketches/KsziL-F5m)
+
 ```JS
 
         let setting;
@@ -87,4 +89,29 @@ We're getting closer in where we have to start to build/make our **Freedom Proje
 
 ### Engineering Design Process
 
-I am no longer in steps 3 (**Brainstorming**) or in step 4 (**Planning**). Right now I am at step 5 (**Creating**) and in step 6 (**Testing**). I'm at step 5 because my partner's and I worked on the **MVP**, and are now slowly making our way to make our **Beyond MVP** for the **Freedom Project**. 
+I am no longer in steps 3 (**Brainstorming**) or in step 4 (**Planning**). Right now I am at step 5 (**Creating**) and in step 6 (**Testing**). I'm at step 5 because my partner's and I worked on the **MVP**, and are now slowly making our way to make our **Beyond MVP** for the **Freedom Project**. We are creating our mini game so that it can be perfect, slowly creating our games meun so that it can be added on later. However, while creating/coding we are also testing it as we moved on. Testing the code is important because we need to see if there are any errors. My partner's and I were doing this when we were making the mini game. So, glad that we did that because we came across many errors. Now that I am lokking at the website for [HSTAT SEP](https://hstatsep.github.io/students/), looking at the **EDP** I realize that I'm also at step 7 (**Improving**) and at step 8 (**Communicate**). I'm slowly going to step 7 because my partner's and I are slowly improving our **Freedom Project**, as well we are improving within ourself. We're also on step 8 because we're all working on our communication skills, since we are communicating within/outside of school. 
+
+### Skills
+
+#### Problem decomposition
+
+**Problem decomposition** is one of the skills that I have been learning and need to have because there's so much things that I want to do for the **Freedom Project**, but that would have been so much. So, I needed to break down those ideas into smaller pieces so that I can envison what I want to be feature into the game. So far, I have been doing good with that because during _Spring break_, Robert and I were able to decided what we want to be input inside the game. Some of our old ideas were cut off, and it'll probably not be inclubed into the game. I'm glad that I have been slowly improving with this skill because now I know how to break things down into smaller/simpler tasks. 
+
+#### Time management
+
+**Time management** is an important skill to have, especially when we have a time frame and a plan to follow. When we had to work on the **MVP**, I have to admit that my partner's and I weren't following the plan that we made. For this we had to work on the **MVP** within two days before school started. I would never do this again because within those two days I was over stress. So, my lesson from that is to never do work last minute. 
+
+#### Communication
+
+**Communication** is a skill that I am improving on over the days, because I have been communicating with my partner's outside of school in order to work of the **Freedom Project**. I need to work on communicating with them in school because I sometimes forget to talk to them about what steps that we should work on. However, outside of school I used **Discord** in order to communicate with them and to work on the project with them. 
+
+### Goals
+
+* To fix the **MVP** and to make improvement on it before the due date of the **Freedom Project** fair.
+* To start working on the **Beyond MVP** before _May 20_ because I believe the fair is around _May 27_. So, my partner's and I need to start working on the menu.
+* Keep up with my **Time Management** and NOT work on things last minute.
+* Asking for help if needed instead of struggling on my own.
+
+### Professionalism
+
+I'm conveying my learning by using all the things that I have learnt from the past and today ```[Computer Science 9th, SEP10, & SEP11]``` by learning, from **Tiny.cc/fccwd**, from **Html** + **CSS**, from **JavaScript**, and from my friends/peers as well. I have learnt many different kinds of coding and format, and how to use them as well. I am using all of my learning, and coding skills in order to make this third blog. I have used some of the html, as well I used some of the markdown. For instance, I used this * to make my words in bold, and I used _ in order to make some words in italic.
