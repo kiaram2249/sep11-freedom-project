@@ -10,6 +10,7 @@ We're getting closer in where we have to start to build/make our **Freedom Proje
 **THE MVP:**
 
 * [The Mini-Game on P5.js](https://editor.p5js.org/kiaram2249/sketches/KsziL-F5m)
+* [P5play Reference](https://p5js.org/reference/)
 
 ```JS
 
