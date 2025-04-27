@@ -81,3 +81,10 @@ We're getting closer in where we have to start to build/make our **Freedom Proje
         }
 ```
 
+* This is our final code for the mini game, it works how we wanted it to work. But, there's some changes that need to be done in order for it to be truly done. For instance, right now there's two different color circles, green being the safe ones to collet and organe being the deadly ones to collet. This is to represent the **Fruit** and the **Trash-bag**. So, later on I need to make a **var** that contains these images and replace the color circles with that. I would have done it before, but I didn't knew how to do it, so I asked one of my friends who is also doing **P5play** to help me. She was able to help me and example what I need in order to make what I want happen.
+* As well I probably need to change the speed just a bit because the objects are going a little bit slow, and I need to search a basket image if I want to replace the rectangle with that. Other than that everything is good as it is.
+
+
+### Engineering Design Process
+
+I am no longer in steps 3 (**Brainstorming**) or in step 4 (**Planning**). Right now I am at step 5 (**Creating**) and in step 6 (**Testing**). I'm at step 5 because my partner's and I worked on the **MVP**, and are now slowly making our way to make our **Beyond MVP** for the **Freedom Project**. 
