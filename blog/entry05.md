@@ -109,7 +109,7 @@ I am no longer in steps 3 (**Brainstorming**) or in step 4 (**Planning**). Right
 
 * To fix the **MVP** and to make improvement on it before the due date of the **Freedom Project** fair.
 * To start working on the **Beyond MVP** before _May 20_ because I believe the fair is around _May 27_. So, my partner's and I need to start working on the menu.
-* Keep up with my **Time Management** and NOT work on things last minute.
+* Keep up with my **Time Management** and **NOT** work on things last minute.
 * Asking for help if needed instead of struggling on my own.
 
 ### Professionalism
