@@ -54,7 +54,6 @@ We're getting closer in where we have to start to build/make our **Freedom Proje
                 shape.diameter = random(20, 40);
                 shape.vel.y = random(2, 5);
 
-                // Randomly assign color and type
                 if (random() < 0.3) {
                     shape.color = 'orange';   // deadly
                     shape.isDeadly = true;
