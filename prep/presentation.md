@@ -4,7 +4,8 @@
 * 
 
 ## Product
-* 
+* Will show code snippets of different parts of the Freedom Project. Mostly codes that we believe that are important and that were challenging to do.
+   * However, we need to code snippet both tools that were used. So half of 
 
 ## Process
 * 
