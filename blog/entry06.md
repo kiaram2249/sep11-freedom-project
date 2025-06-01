@@ -53,3 +53,8 @@ These are some of the sources I used while learning/tinkering how to use my tool
 
 * [Garden-FP](https://docs.google.com/presentation/d/12HR9RHnp62WqtHSPO8AnI9oq0q3-rLFDWaIHxF5GQ2A/edit?slide=id.g357ea9999de_0_5#slide=id.g357ea9999de_0_5)
 * [Elevator Pitch](https://docs.google.com/presentation/d/1iGfX6hZh018YFwxEAZ8xV8wcospvQID-7bvGbmeqt_k/edit?slide=id.g35c5b9d7fdc_1_16#slide=id.g35c5b9d7fdc_1_16)
+
+
+### Professionalism
+
+I'm conveying my learning by using all the things that I have learnt from the past and today ```[Computer Science 9th, SEP10, & SEP11]``` by learning, from **Tiny.cc/fccwd**, from **Html** + **CSS**, from **JavaScript**, and from my friends/peers as well. I have learnt many different kinds of coding and format, and how to use them as well. I am using all of my learning, and coding skills in order to make this third blog. I have used some of the html, as well I used some of the markdown. For instance, I used this * to make my words in bold, and I used _ in order to make some words in italic.
